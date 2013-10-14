@@ -1,4 +1,4 @@
 nodeScripts
 ===========
 
-Scripts in dynamic languages
+Scripts in various dynamic languages
