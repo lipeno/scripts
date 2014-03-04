@@ -5,23 +5,7 @@ Optimize for the time cost of m function calls on your queue. These can be any m
 Assume you already have a stack implementation and it gives O(1) time push and pop.
 =end
 
-class Stack
-  def initialize
-    @the_stack = []
-  end
-
-  def push(item)
-    @the_stack.push item
-  end
-
-  def pop
-    @the_stack.pop
-  end
-
-  def size
-    @the_stack.length
-  end
-end
+require './stack.rb'
 
 class Queue
   def initialize
